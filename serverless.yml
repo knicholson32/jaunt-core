@@ -1,5 +1,6 @@
 component: express
 name: core
+app: jaunt
 
 provider:
   stage: dev # Set the default stage used. Default is dev
