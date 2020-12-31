@@ -53,7 +53,7 @@ app.post(`/users/register`, asyncHandler(users.register))
 app.post(`/users/login`, asyncHandler(users.login))
 
 app.get(`/test/`, (req, res) => {
-  res.status(200).send('Request received')
+  res.status(200).send('Request received!')
 })
 
 /**
